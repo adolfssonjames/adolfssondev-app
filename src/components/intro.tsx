@@ -51,14 +51,14 @@ export default function Intro() {
       >
         <Link
           href="#Contact"
-          className=" group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition "
+          className=" group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-700 active:scale-105 transition "
         >
           Våra lösningar{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
         <a
           href=""
-          className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition "
+          className="group bg-gray-100 text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition "
         >
           Kontakta oss
           <BsArrowRight className="opacity-60 group-hover:translate-x-1 transition" />
