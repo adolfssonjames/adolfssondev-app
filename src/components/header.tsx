@@ -1,15 +1,15 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { links } from "../../lib/data";
 import Link from "next/link";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import clsx from "clsx";
+import clsx from "clsx"; //paket som conditionally renderar ut style
 
 export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
-
+  useState("Hem");
   return (
     <header className="z-[999] relative">
       <motion.div
