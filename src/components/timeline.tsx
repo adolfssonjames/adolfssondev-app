@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 import SectionHeading from "./section-heading";
 import {
@@ -9,7 +10,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "../../lib/data";
 import { useSectionInView } from "../../lib/hooks";
 
-export default function Experience() {
+export default function Timeline() {
   const { ref } = useSectionInView("Lösningar");
 
   return (
