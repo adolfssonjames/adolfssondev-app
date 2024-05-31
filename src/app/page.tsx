@@ -3,6 +3,7 @@ import Intro from "@/components/intro";
 import SectionDivider from "@/components/section-divider";
 import Projects from "@/components/projects";
 import Testimonials from "@/components/testimonials";
+import Timeline from "@/components/timeline";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <Projects />
       <Testimonials />
+      <Timeline />
     </main>
   );
 }

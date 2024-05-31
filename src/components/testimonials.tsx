@@ -21,6 +21,7 @@ export default function Testimonials() {
     <section
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
       ref={ref}
+      id="skills"
     >
       <SectionHeading>testimonials</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
