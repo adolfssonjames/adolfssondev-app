@@ -2,10 +2,11 @@ import Header from "@/components/header";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/active-section-context"; //paket som håller koll på vilken section som är aktiv
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Adolfsson Digital",
   description:
     "Vi utvecklar webbsidor och erbjuder konsulttjänster. Professionellt och Prisvärt",
