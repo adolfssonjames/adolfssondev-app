@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Adolfsson Digital",
   description:
     "Vi utvecklar webbsidor och erbjuder konsulttjänster. Professionellt och Prisvärt",
-  icons: "/favicon.ico",
+  icons: "/favicon.jpg",
 };
 export default function RootLayout({
   children,
