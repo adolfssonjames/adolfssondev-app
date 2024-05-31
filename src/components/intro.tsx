@@ -1,21 +1,23 @@
 "use client";
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-import { useActiveSectionContext } from "@/context/active-section-context";
+import { useSectionInView } from "../../lib/hooks";
+
 export default function Intro() {
-  const { ref, inView } = useInView({ threshold: 0.5 });
-  const { setActiveSection } = useActiveSectionContext();
-  useEffect(() => {
-    if (inView) setActiveSection("Hem");
-  }, [inView, setActiveSection]);
+  //custom  hook (useSectionInView)
+  const { ref } = useSectionInView("Hem", 0.5); // 0.5 är threshold för när sectionen ska trigga
+
   return (
-    <section className="max-w-[60rem] text-center scroll-mt-[100rem]" id="home">
+    <section
+      className="max-w-[60rem] text-center scroll-mt-[100rem]"
+      id="home"
+      ref={ref}
+    >
       {/* <div className="flex items-center justify-center">
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
