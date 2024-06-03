@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "../../lib/hooks";
@@ -10,6 +10,8 @@ import toast from "react-hot-toast";
 export default function Contact() {
   const { ref } = useSectionInView("Kontakt", 0.5);
 
+  const [senderEmail, setSenderEmail] = useState("");
+  const [message, setMessage] = useState("");
   return (
     <motion.section
       id="contact"
@@ -30,9 +32,9 @@ export default function Contact() {
 
       <form
         action={async (FormData) => {
-          console.log("running on client");
-          console.log(FormData.get("senderEmail"));
-          console.log(FormData.get("message"));
+          // console.log("running on client");
+          // console.log(FormData.get("senderEmail"));
+          // console.log(FormData.get("message"));
 
           const { data, error } = await sendEmail(FormData);
 
@@ -41,6 +43,8 @@ export default function Contact() {
             return;
           }
           toast.success("Meddelandet har skickats");
+          setSenderEmail("");
+          setMessage("");
         }}
         className="mt-10 flex flex-col"
       >
@@ -52,6 +56,8 @@ export default function Contact() {
           className="bg-slate-100 text-black px-4 h-14 rounded-lg borderBlack
            outline-slate-400"
           placeholder="Din email"
+          value={senderEmail}
+          onChange={(e) => setSenderEmail(e.target.value)}
         />
         <textarea
           name="message"
@@ -59,6 +65,8 @@ export default function Contact() {
           maxLength={5000}
           className=" bg-slate-100 text-black h-52 my-3 rounded-lg borderBlack p-4 outline-slate-400 "
           placeholder="Ditt meddelande"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
         />
         <SubmitBtn />
       </form>
