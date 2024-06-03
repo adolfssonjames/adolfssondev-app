@@ -41,11 +41,13 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="w-full text-center">
-          <strong className="text-8xl">Adolfsson Digital</strong>
+        <span className="w-full ">
+          <strong className="text-7xl">
+            Det moderna och prisvärda alternativet till att digitaliseras
+          </strong>
         </span>
         <span className="text-3xl mt-2 text-center">
-          Vi utvecklar webbsidor och hjälper dig digitaliseras
+          Vi utvecklar webbplatser och hjälper dig digitaliseras
         </span>
         <span className="text-3xl text-center">
           {" "}
@@ -61,7 +63,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className=" group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-700 active:scale-105 transition"
+          className=" group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none borderBlack focus:scale-110 hover:scale-110 hover:bg-gray-600 active:scale-105 transition"
           onClick={() => {
             setActiveSection("Kontakt");
             setTimeOfLastClick(Date.now());
@@ -72,7 +74,7 @@ export default function Intro() {
         </Link>
         <a
           href="#contact"
-          className="group bg-gray-100 text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition "
+          className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none borderBlack focus:scale-110 hover:scale-110 hover:bg-slate-200 active:scale-105 transition "
           onClick={() => {
             setActiveSection("Kontakt");
             setTimeOfLastClick(Date.now());
