@@ -5,3 +5,7 @@
 html {
   --line-color: #e5e7eb; /* timeline line color*/
 }
+
+.borderBlack {
+  @apply border border-black/10;
+}

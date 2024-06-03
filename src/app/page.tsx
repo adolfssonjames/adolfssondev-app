@@ -4,6 +4,7 @@ import SectionDivider from "@/components/section-divider";
 import Projects from "@/components/projects";
 import Testimonials from "@/components/testimonials";
 import Timeline from "@/components/timeline";
+import Contact from "@/components/contact";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Projects />
       <Testimonials />
       <Timeline />
+      <Contact />
     </main>
   );
 }

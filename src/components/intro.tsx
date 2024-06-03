@@ -7,11 +7,12 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "../../lib/hooks";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
   //custom  hook (useSectionInView)
   const { ref } = useSectionInView("Hem", 0.5); // 0.5 är threshold för när sectionen ska trigga
-
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
     <section
       className="max-w-[60rem] text-center scroll-mt-[100rem]"
@@ -59,15 +60,23 @@ export default function Intro() {
         transition={{ delay: 0.3 }}
       >
         <Link
-          href="#Contact"
-          className=" group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-700 active:scale-105 transition "
+          href="#contact"
+          className=" group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-700 active:scale-105 transition"
+          onClick={() => {
+            setActiveSection("Kontakt");
+            setTimeOfLastClick(Date.now());
+          }}
         >
           Våra lösningar{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
         <a
-          href=""
+          href="#contact"
           className="group bg-gray-100 text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition "
+          onClick={() => {
+            setActiveSection("Kontakt");
+            setTimeOfLastClick(Date.now());
+          }}
         >
           Kontakta oss
           <BsArrowRight className="opacity-60 group-hover:translate-x-1 transition" />
