@@ -1,10 +1,12 @@
 "use client";
 import React from "react";
 import SectionHeading from "./section-heading";
-import { FaPaperPlane } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useSectionInView } from "../../lib/hooks";
 import { sendEmail } from "../../actions/sendEmail";
+import SubmitBtn from "./submit-btn";
+import toast from "react-hot-toast";
+
 export default function Contact() {
   const { ref } = useSectionInView("Kontakt", 0.5);
 
@@ -32,7 +34,13 @@ export default function Contact() {
           console.log(FormData.get("senderEmail"));
           console.log(FormData.get("message"));
 
-          await sendEmail(FormData);
+          const { data, error } = await sendEmail(FormData);
+
+          if (error) {
+            toast.error(error);
+            return;
+          }
+          toast.success("Meddelandet har skickats");
         }}
         className="mt-10 flex flex-col"
       >
@@ -48,17 +56,11 @@ export default function Contact() {
         <textarea
           name="message"
           required
-          maxLength={500}
+          maxLength={5000}
           className=" bg-slate-100 text-black h-52 my-3 rounded-lg borderBlack p-4 outline-slate-400 "
           placeholder="Ditt meddelande"
         />
-        <button
-          type="submit"
-          className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-white text-black rounded-full outline-none transition-all focus:scale-105 hover:scale-105 hover:bg-slate-200  active:scale-105"
-        >
-          Skicka{" "}
-          <FaPaperPlane className="text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:-translate-y-1" />
-        </button>
+        <SubmitBtn />
       </form>
     </motion.section>
   );
