@@ -5,6 +5,7 @@ import ActiveSectionContextProvider from "@/context/active-section-context"; //p
 import { Metadata } from "next";
 import { Toaster } from "react-hot-toast";
 import Footer from "@/components/footer";
+import { Analytics } from "@vercel/analytics/react";
 
 const font = Figtree({ subsets: ["latin"] });
 
@@ -29,6 +30,7 @@ export default function RootLayout({
         <ActiveSectionContextProvider>
           <Header />
           {children}
+          <Analytics />
           <Footer />
           <Toaster position="bottom-center" />
         </ActiveSectionContextProvider>
