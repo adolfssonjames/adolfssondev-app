@@ -19,7 +19,9 @@ export default function Header() {
       ></motion.div>
 
       <div className="text-lg fixed top-[0.15rem]  left-0 h-12 py-2 sm:top-[1.7rem] pl-2 sm:pl-10 sm:left-0 sm:h-[initial] sm:py-0">
-        <Link href={"/"}>Adolfsson Digital</Link>
+        <Link className="dark:text-slate-700 font-semibold " href={"/"}>
+          Adolfsson Digital
+        </Link>
       </div>
 
       <nav className="fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0 ">
@@ -33,7 +35,7 @@ export default function Header() {
             >
               <Link
                 className={clsx(
-                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300",
+                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-slate-500 dark:hover:text-slate-700",
                   {
                     "text-gray-950 dark:text-gray-200":
                       activeSection === link.name,
@@ -49,7 +51,7 @@ export default function Header() {
 
                 {link.name === activeSection && (
                   <motion.span
-                    className="bg-gray-100 rounded-full absolute inset-0 -z-10 dark:bg-gray-800"
+                    className="bg-gray-100 rounded-full absolute inset-0 -z-10 dark:bg-gray-200"
                     layoutId="activeSection"
                     transition={{
                       type: "spring",

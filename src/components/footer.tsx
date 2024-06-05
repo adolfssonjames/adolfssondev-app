@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <footer>
-      <section className="flex gap-10 pb-10 sm:gap-56 justify-center">
+      <section className="flex gap-10 pb-10 sm:gap-56 justify-center dark:text-slate-700">
         <div>
           <small> &copy; 2024 Adolfsson Digital </small>{" "}
         </div>

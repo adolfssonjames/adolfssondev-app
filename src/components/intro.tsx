@@ -15,7 +15,7 @@ export default function Intro() {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
     <section
-      className="max-w-[60rem] text-center scroll-mt-[100rem]"
+      className="max-w-[60rem] text-center scroll-mt-[100rem] dark:text-slate-700"
       id="home"
       ref={ref}
     >
