@@ -15,7 +15,7 @@ export default function Intro() {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
     <section
-      className="max-w-[60rem] text-center scroll-mt-[100rem] dark:text-slate-700"
+      className="max-w-[60rem] text-center scroll-mt-[100rem] dark:text-slate-800"
       id="home"
       ref={ref}
     >
@@ -42,14 +42,15 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="w-full ">
-          <strong className="text-7xl">
-            Det moderna och prisvärda alternativet till att digitaliseras
-          </strong>
+          <strong className="text-7xl">Det moderna och prisvärda</strong>
         </span>
-        <span className="text-3xl mt-2 text-center">
+        <span className="w-full mt-2 ">
+          <strong className="text-6xl">alternativet vid digitalisering</strong>
+        </span>
+        <span className="text-2xl mt-2 sm:mt-6 text-center">
           Vi utvecklar webbplatser och hjälper dig digitaliseras
         </span>
-        <span className="text-3xl text-center">
+        <span className="text-2xl text-center">
           {" "}
           Professionellt och Prisvärt
         </span>
