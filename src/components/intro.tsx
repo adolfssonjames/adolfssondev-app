@@ -37,7 +37,7 @@ export default function Intro() {
         </motion.div>
       </div> */}
       <motion.h1
-        className="flex flex-col items-center justify-center mb-10 mt-10 px-4"
+        className="flex flex-col items-center justify-center mb-10 mt-2 sm:mt-10 px-4"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -51,7 +51,7 @@ export default function Intro() {
             alternativet vid digitalisering
           </strong>
         </span>
-        <span className="text-xl sm:text-2xl mt-2 sm:mt-6 text-center">
+        <span className="text-xl sm:text-2xl mt-8 sm:mt-6 text-center">
           Vi utvecklar webbplatser och hjälper dig digitaliseras
         </span>
         <span className="text-xl sm:text-2xl text-center">

@@ -138,9 +138,9 @@ export const skillsData = [
 
 export const servicesData = [
   {
-    title: "En Webbplats på en dag",
+    title: "Webbplats på en dag",
     description:
-      "Vi skapar en Webbplats på en dag. Detta paket inkluderar en Landingsida (Hem) och 3 ytterligare sidor som exempelvis Om oss, Kontakt, Tjänster",
+      "Vi skapar en Webbplats på en dag. Detta paket inkluderar en Landingsida (Hem) och 3 ytterligare sidor som exempelvis Om oss, Kontakt, Tjänster. Perfekt för dig som är start up-bolag eller en privatperson som vill prova på eller ha en webbplats på studs.",
     tags: ["4 Sidor", "Copywriting", "SEO", "Lansering", "Responsiv design"],
     price: "10 000 sek",
 
