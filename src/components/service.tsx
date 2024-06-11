@@ -24,8 +24,11 @@ export default function Service({
       style={{ scale: scaleProggress, opacity: opacityProgress }}
       className="group mb-3 sm:mb-8 last:mb-0 dark:text-slate-700"
     >
-      <section className="text-center bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[30rem] hover:bg-gray-200 transition ml-4 sm:group-even:pl-10 cursor-default  ">
-        <div className="pt-4 pb-16 px-5 sm:px-4 sm:pl-6 sm:pr-0 sm:pt-8 sm:max-w-[100%] flex flex-col h-full sm:group-even:ml-[18rem]">
+      <section className=" group text-center bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[30rem] hover:bg-gray-200 transition ml-4 sm:group-even:pl-10 cursor-default  ">
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          className=" pt-4 pb-16 px-5 sm:px-4 sm:pl-6 sm:pr-0 sm:pt-8 sm:max-w-[100%] flex flex-col h-full sm:group-even:ml-[18rem]"
+        >
           <h3 className="text-2xl font-semibold text-gray-700">{title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700">{description}</p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto sm:mb-auto">
@@ -38,10 +41,10 @@ export default function Service({
               </li>
             ))}
           </ul>
-          <div className="pt-2 sm:pt-4 text-slate-950 text-xl">
+          <div className="group:hover:scale-110 pt-2 sm:pt-4 text-slate-900 font-light text-xl">
             {price} {price2}
           </div>
-        </div>
+        </motion.div>
       </section>
     </motion.div>
   );

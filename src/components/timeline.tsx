@@ -53,7 +53,7 @@ export default function Timeline() {
               <p className="font-normal !mt-0 text-slate-700 dark:text-slate-700">
                 {item.location}
               </p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75 dark:text-slate-700">
+              <p className="!mt-1 !font-normal text-gray-700  dark:text-slate-700">
                 {item.description}
               </p>
             </VerticalTimelineElement>
