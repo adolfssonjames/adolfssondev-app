@@ -25,7 +25,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading> Om oss</SectionHeading>
-      <div className="flex items-center justify-center mb-4 relative group">
+      <div className="flex items-center m-auto justify-center mb-4 relative group w-60">
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
