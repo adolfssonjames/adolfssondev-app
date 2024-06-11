@@ -17,7 +17,7 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28 dark:text-slate-700"
+      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-52 scroll-mt-28 dark:text-slate-700"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
@@ -32,7 +32,7 @@ export default function About() {
           transition={{ type: "tween", duration: 0.25 }}
         >
           <Image
-            src={"/jamesprofile2.jpg"}
+            src={"/jamesprofile3.png"}
             alt="portrait"
             width={500}
             height={500}
@@ -81,7 +81,7 @@ export default function About() {
       <AnimatePresence>
         {showMore && (
           <motion.div
-            initial={{ opacity: 0, y: -50 }}
+            initial={{ opacity: 0, y: -300 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -400 }}
             transition={{ duration: 0.3 }}
