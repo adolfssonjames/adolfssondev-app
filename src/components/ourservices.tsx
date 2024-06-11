@@ -13,7 +13,7 @@ export default function Ourservices() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[70rem] text-center leading-8 sm:mb-40 scroll-mt-28 dark:text-slate-700 flex flex-row "
+      className="mb-28 mt-20 sm:mt-0 max-w-[70rem] text-center leading-8 sm:mb-40 scroll-mt-28 dark:text-slate-700 flex flex-row "
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.45 }}
@@ -21,10 +21,10 @@ export default function Ourservices() {
     >
       <div>
         <SectionHeading>Tjänster</SectionHeading>
-        <div className="flex flex-row ">
+        <div className="flex flex-col sm:flex-row ">
           {servicesData.map((service, index) => (
             <React.Fragment key={index}>
-              <div className="w-1/3">
+              <div className="sm:w-1/3">
                 <Service {...service} />
               </div>
             </React.Fragment>

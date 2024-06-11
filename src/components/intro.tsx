@@ -42,15 +42,19 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="w-full ">
-          <strong className="text-7xl">Det moderna och prisvärda</strong>
+          <strong className="text-5xl sm:text-7xl">
+            Det moderna och prisvärda
+          </strong>
         </span>
         <span className="w-full mt-2 ">
-          <strong className="text-6xl">alternativet vid digitalisering</strong>
+          <strong className="text-4xl sm:text-6xl">
+            alternativet vid digitalisering
+          </strong>
         </span>
-        <span className="text-2xl mt-2 sm:mt-6 text-center">
+        <span className="text-xl sm:text-2xl mt-2 sm:mt-6 text-center">
           Vi utvecklar webbplatser och hjälper dig digitaliseras
         </span>
-        <span className="text-2xl text-center">
+        <span className="text-xl sm:text-2xl text-center">
           {" "}
           Professionellt och Prisvärt
         </span>
