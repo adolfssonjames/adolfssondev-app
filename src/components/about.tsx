@@ -41,8 +41,8 @@ export default function About() {
             className="h-60 w-60 rounded-full object-cover  shadow-xl shadow-cyan-950 dark:shadow-blue-100 "
           />
         </motion.div>
-        <div className="absolute inset-0 flex items-center justify-center flex-col font-medium text-white dark:text-slate-700 h-60 w-60 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-          <p>James Adolfsson</p>
+        <div className="absolute flex items-center justify-center flex-col  text-white h-60 w-60 opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-slate-700 bg-opacity-45 rounded-full">
+          <p className="">James Adolfsson</p>
           <p>Webbutvecklare & Webbdesigner</p>
         </div>
       </div>
