@@ -140,7 +140,7 @@ export const servicesData = [
   {
     title: "Webbplats på en dag",
     description:
-      "Vi skapar en Webbplats på en dag. Detta paket inkluderar en Landingsida (Hem) och 3 ytterligare sidor som exempelvis Om oss, Kontakt, Tjänster. Perfekt för dig som är start up-bolag eller en privatperson som vill prova på eller ha en webbplats på studs.",
+      "Vi skapar en Webbplats på en dag. Detta paket inkluderar en Landingsida (Hem) och 3 ytterligare sidor som exempelvis Om oss, Kontakt, Tjänster. Perfekt för dig som är start up-bolag eller en privatperson som vill prova på eller ha en webbplats redan idag.",
     tags: ["4 Sidor", "Copywriting", "SEO", "Lansering", "Responsiv design"],
     price: "10 000 sek",
 
@@ -149,7 +149,7 @@ export const servicesData = [
   {
     title: "Skärddarsydd Webbplats",
     description:
-      "Vi skapar en skräddarsydd webbplats. Detta paket inkluderar det mesta. Vi bygger efter era krav och önskemål. Skapas i källkod med React.js/Next.js eller i platformen Webflow",
+      "Vi skapar en skräddarsydd webbplats. Detta paket inkluderar det mesta (se tags). Vi bygger efter era krav och önskemål. Projektet Skapas i källkod med React.js/Next.js eller i platformen Webflow",
     tags: [
       "Valfritt antal sidor",
       "Copywriting",
@@ -160,6 +160,7 @@ export const servicesData = [
       "Analytics",
       "E-commerce",
       "Responsiv design",
+      "Performance statistik",
     ],
     price: "Från 10 000 sek",
     price2: "",
@@ -167,7 +168,8 @@ export const servicesData = [
   {
     title: "Konsult eller Serviceavtal",
     description:
-      "Anlita mig som konsult. Jag hjälper er med ert befintliga projekt eller med att starta upp ett nytt projekt. Behöver du hjälp med driften av din webbplats? Vi erbjuder serviceavtal för att hålla din webbplats uppdaterad, övervakad och säker.",
+      "Behöver ditt team eller företag förstärkning? Anlita mig som utvecklare eller webbdesignkonsult. Jag hjälper er gärna med ert projekt. Behöver du hjälp med driften av din webbplats? Vi erbjuder serviceavtal för att hålla din webbplats uppdaterad och övervakad.",
+
     tags: [
       "React",
       "Next.js",
