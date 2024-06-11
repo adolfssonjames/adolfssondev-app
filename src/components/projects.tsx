@@ -13,7 +13,7 @@ export default function Projects() {
       id="projects"
       ref={ref}
     >
-      <SectionHeading>projects</SectionHeading>
+      <SectionHeading> Tidigare Projekt</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>

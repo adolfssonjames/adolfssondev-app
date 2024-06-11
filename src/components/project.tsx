@@ -3,12 +3,15 @@ import { useRef } from "react";
 import { projectsData } from "../../lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
-type ProjectProps = (typeof projectsData)[number];
+type ProjectProps = (typeof projectsData)[number] & {
+  projectUrl: string;
+};
 export default function Project({
   title,
   description,
   tags,
   imageUrl,
+  projectUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -22,6 +25,7 @@ export default function Project({
       ref={ref}
       style={{ scale: scaleProggress, opacity: opacityProgress }}
       className="group mb-3 sm:mb-8 last:mb-0 dark:text-slate-700"
+      onClick={() => window.open(projectUrl, "_blank")}
     >
       <section className=" bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition ml-4 sm:group-even:pl-10 cursor-pointer ">
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">

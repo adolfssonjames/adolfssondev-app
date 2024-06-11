@@ -63,14 +63,14 @@ export default function Intro() {
         transition={{ delay: 0.3 }}
       >
         <Link
-          href="#contact"
+          href="#services"
           className=" group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none borderBlack focus:scale-110 hover:scale-110 hover:bg-gray-600 active:scale-105 transition"
           onClick={() => {
-            setActiveSection("Kontakt");
+            setActiveSection("Tjänster");
             setTimeOfLastClick(Date.now());
           }}
         >
-          Våra lösningar{" "}
+          Våra Tjänster{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
         <a

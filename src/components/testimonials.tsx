@@ -21,24 +21,28 @@ export default function Testimonials() {
     <section
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40 dark:text-slate-700"
       ref={ref}
-      id="skills"
+      id="testimonials"
     >
-      <SectionHeading>testimonials</SectionHeading>
-      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
-        {skillsData.map((testimonial, index) => (
-          <motion.li
-            className="bg-white border border-black/[0.1] rounded-xl px-5 py-3"
-            key={index}
-            variants={fadeInAnimationvariants}
-            initial="initial"
-            whileInView="animate"
-            viewport={{ once: true }}
-            custom={index}
-          >
-            {testimonial}
-          </motion.li>
-        ))}
-      </ul>
+      <SectionHeading>Referenser & rekommendationer</SectionHeading>
+      <div className="">
+        <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+          {skillsData.map((testimonial, index) => (
+            <motion.li
+              className="bg-white border border-black/[0.1] rounded-xl px-5 py-3 w-auto h-auto"
+              key={index}
+              variants={fadeInAnimationvariants}
+              initial="initial"
+              whileInView="animate"
+              viewport={{ once: true }}
+              custom={index}
+            >
+              <p className="font-bold">{testimonial.name}</p>
+              <p className="font-medium">{testimonial.role}</p>
+              <p>{testimonial.testimonial}</p>
+            </motion.li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 }
