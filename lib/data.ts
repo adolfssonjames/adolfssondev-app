@@ -71,7 +71,7 @@ export const experiencesData = [
     description:
       "I det fjärde och sista steget så utvecklar vi er webbplats efter önskad design och krav. Vårt mål är att överträffa samtliga krav och presentera ett färdigt projekt som lämnar klienten över förväntan",
     icon: React.createElement(FaLaptopCode),
-    date: "Adolfsson Digital utför utveckling av webbplats, och presenterar färdigt projekt för client",
+    date: "Adolfsson Digital utför utveckling av webbplats, och presenterar färdigt projekt för klient",
   },
 ] as const;
 
