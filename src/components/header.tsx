@@ -31,7 +31,7 @@ export default function Header() {
       </div>
 
       {isOpen && (
-        <nav className="fixed top-0 left-0 w-full h-1/2  text-white bg-slate-950 bg-opacity-95 dark:bg-slate-100 dark:bg-opacity-95 dark:text-slate-950 text-lg">
+        <nav className="fixed top-0 left-0 w-full h-full  text-white bg-slate-950 bg-opacity-95 dark:bg-slate-100 dark:bg-opacity-95 dark:text-slate-950 text-lg">
           <ul className="mt-14 text-center w-full">
             {links.map((link) => (
               <li className="py-2" key={link.hash}>
@@ -52,7 +52,7 @@ export default function Header() {
             className="absolute top-2 right-2 text-white"
             onClick={() => setIsOpen(false)}
           >
-            <FaRegWindowClose className="text-white dark:text-slate-700 text-3xl" />
+            <FaRegWindowClose className="text-white dark:text-slate-700 text-3xl mt-1 mr-2" />
           </button>
         </nav>
       )}
