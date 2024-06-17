@@ -141,7 +141,7 @@ export const servicesData = [
     description:
       "Vi skapar en Webbplats på en dag. Detta paket inkluderar en Landingsida (Hem) och 3 ytterligare sidor som exempelvis Om oss, Kontakt, Tjänster. Perfekt för dig som är start up-bolag eller en privatperson som vill prova på eller ha en webbplats redan idag.",
     tags: ["4 Sidor", "Copywriting", "SEO", "Lansering", "Responsiv design"],
-    price: "10 000 sek",
+    price: "10 000 SEK",
 
     price2: "",
   },
@@ -161,7 +161,7 @@ export const servicesData = [
       "Responsiv design",
       "Performance statistik",
     ],
-    price: "Från 10 000 sek",
+    price: "Från 10 000 SEK",
     price2: "",
   },
   {
@@ -178,7 +178,7 @@ export const servicesData = [
       "anyltics rapportering",
       "performance rapportering",
     ],
-    price: "Konsult: 300 sek/timme",
-    price2: "Serviceavtal: 500 sek/månad",
+    price: "Konsult: 300 SEK/Timme",
+    price2: "Serviceavtal: 500 SEK/Månad",
   },
 ] as const;
