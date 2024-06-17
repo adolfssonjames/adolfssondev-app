@@ -70,6 +70,13 @@ export default function Contact() {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
+        <div className="flex mt-2 mb-4">
+          <input type="checkbox" required className="mr-2 ml-2 h-5 w-5" />
+          <label htmlFor="acceptTerms" className="text-sm">
+            Jag accepterar att Adolfsson Digital lagrar mina uppgifter och
+            kontaktar mig utifrån dessa.
+          </label>
+        </div>
         <SubmitBtn />
       </form>
     </motion.section>

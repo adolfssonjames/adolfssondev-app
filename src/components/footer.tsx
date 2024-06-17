@@ -8,18 +8,20 @@ export default function Footer() {
           <ul className="flex flex-col gap-2 text-center sm:text-start">
             <p className="text-lg text-center sm:text-start">Sociala medier</p>
             <li>
-              Instagram{" "}
               <a
                 href="https://www.instagram.com/jamesadolfsson"
                 target="_blank"
-              ></a>
+              >
+                Instagram
+              </a>
             </li>
             <li>
-              LinkedIn{" "}
               <a
                 href="https://www.linkedin.com/in/james-adolfsson"
                 target="_blank"
-              ></a>
+              >
+                LinkedIn
+              </a>
             </li>
           </ul>
         </div>

@@ -5,8 +5,9 @@ import { RiPresentationFill } from "react-icons/ri";
 import { FaLaptopCode } from "react-icons/fa";
 import wordanalyticsImg from "../public/wordanalytics.png";
 import soulsistersImg from "../public/soulsisters.png";
+import placeholderImg from "../public/placeholderImg.jpg";
 import soulsistersImg2 from "../public/soulsisters2.png";
-import adolfssondigitalImg from "../public/adolfssondigital.png";
+import adolfssondigitalImg2 from "../public/adolfssondigital2.png";
 import test from "node:test";
 
 export const links = [
@@ -45,15 +46,15 @@ export const experiencesData = [
     title: "Initialt möte angående mål, krav & förväntningar",
     location: "Kravspecifikation",
     description:
-      "Första steget är att ha ett initialt möte om förväntingar, krav och önskemål och mål. Detta är ett viktigt då det blir till underlag och en kravspecifikation. Detta görs för att kunna slutföra ett lyckat projekt.",
+      "Första steget är att ha ett initialt möte om förväntingar, krav och önskemål och mål. Detta är ett viktigt steg då det blir till underlag och en kravspecifikation bildas. Detta görs för att kunna slutföra ett lyckat projekt.",
     icon: React.createElement(IoMdContacts),
     date: "Första kontakt och kravspecifikation",
   },
   {
-    title: "Förslag & Vision",
+    title: "Förslag & Offert",
     location: "Offert",
     description:
-      "Andra steget är att efter vi samlat era krav och mål med mera så skapar vi en design och vision om hur er webbplats kan tänka sig se ut och verka. Detta görs med bland annat en designskiss. Detta görs i samband med en kostnadsfri offert. Som skickas till er.",
+      "Andra steget är att vi skapar ett exempel på en design om hur er webbplats kan tänka sig se ut och verka. Detta görs med bland annat en designskiss. Detta görs i samband med en kostnadsfri offert. Som skickas till er.",
     icon: React.createElement(RiPresentationFill),
     date: "Förslag och offert",
   },
@@ -61,7 +62,7 @@ export const experiencesData = [
     title: "Uppföljning, avtal & fakturering",
     location: "Avtal",
     description:
-      "Tredje steget är att efter ni godkänt offerten och känner er nöjda med den. Då skickas ett avtal från oss som ska godkännas av både dig och av oss på Adolfsson Digital. I samband med detta avtal så skickas även en faktura som ska betalas.",
+      "Tredje steget är att efter ni godkänt offerten, skickas ett avtal från oss som ska godkännas av både dig och av Adolfsson Digital. I samband med detta avtal så skickas även en faktura som ska betalas.",
     icon: React.createElement(FaFileInvoice),
     date: "Uppföljning och avtal",
   },
@@ -69,7 +70,7 @@ export const experiencesData = [
     title: "Utveckling, lansering & presentation av webbplats",
     location: "Utveckling & Lansering",
     description:
-      "I det fjärde och sista steget så utvecklar vi er webbplats efter önskad design och krav. Vårt mål är att överträffa samtliga krav och presentera ett färdigt projekt som lämnar klienten över förväntan",
+      "I det fjärde och sista steget så utvecklar vi er webbplats efter önskad design och funktionalitet. Vårt mål är att överträffa samtliga krav och presentera ett färdigt projekt som lämnar klienten över förväntan",
     icon: React.createElement(FaLaptopCode),
     date: "Adolfsson Digital utför utveckling av webbplats, och presenterar färdigt projekt för klient",
   },
@@ -79,15 +80,13 @@ export const projectsData = [
   {
     title: "Soul Sisters",
     description:
-      "Jag fick i uppdrag att skapa webbplatsen för Soul Sisters (Mode ochklädbutik i Bollnäs). Med målet att ha ett showroom och nyheter samt kunna kontakta och boka tjejkvällar.",
+      "Webbplats för Soul Sisters (Mode och klädbutik i Bollnäs). Med målet för butiken att ha ett showroom och presentera senaste nyheterna med mera",
     tags: [
-      "React",
       "Next.js",
       "analytics",
       "perfomance-statistics",
       "Tailwind",
       "TypeScript",
-      "EmailJS",
     ],
     imageUrl: soulsistersImg2,
     projectUrl: "https://soulsistershop.se",
@@ -95,7 +94,7 @@ export const projectsData = [
   {
     title: "Adolfsson Digital",
     description:
-      "Detta är vår företagswebbplats. Webbplatsen du för närvarande befinner dig på är byggd med React, Next.js och TypeScript.",
+      "Detta är företagets webbplats. Webbplatsen du för närvarande befinner dig på är snabb, responsiv och SEO-vänlig. Byggd med Next.js och TypeScript.",
     tags: [
       "React",
       "TypeScript",
@@ -104,15 +103,15 @@ export const projectsData = [
       "Framer-motion",
       "Resend",
     ],
-    imageUrl: adolfssondigitalImg,
+    imageUrl: adolfssondigitalImg2,
     projectUrl: "https://adolfssondigital.com",
   },
   {
     title: "Elvira Cornelia - Interior Designer",
     description:
       "För närvarande under utveckling. Detta är en portföljwebbplats för en inredningsarkitekt och designer.",
-    tags: [""],
-    imageUrl: wordanalyticsImg,
+    tags: ["Under utveckling"],
+    imageUrl: placeholderImg,
     projectUrl: "https://www.adolfssondigital.com/#projects",
   },
 ] as const;
@@ -149,7 +148,7 @@ export const servicesData = [
   {
     title: "Skärddarsydd Webbplats",
     description:
-      "Vi skapar en skräddarsydd webbplats. Detta paket inkluderar det mesta (se tags). Vi bygger efter era krav och önskemål. Projektet Skapas i källkod med React.js/Next.js eller i platformen Webflow",
+      "Vi skapar en skräddarsydd webbplats. Detta paket inkluderar det mesta (se tags). Vi bygger efter era krav och önskemål. Projektet Skapas i källkod med React.js/Next.js eller i plattformen Webflow",
     tags: [
       "Valfritt antal sidor",
       "Copywriting",
