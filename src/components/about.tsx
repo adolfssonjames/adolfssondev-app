@@ -52,7 +52,8 @@ export default function About() {
         webbutveckling och webbdesign. Mitt namn är James och är baserad i
         Stockholm. Med två års arbetserfarenhet och två års högskoleutbildning i
         bagaget, är jag stolt över att presentera Adolfsson Digital och erbjuda
-        tjänster över hela Sverige och även utomlands.
+        tjänster som hjälper dig att digitalisera ditt företag på bästa möjliga
+        sätt.
       </p>
       <p className="mb-3  text-start">
         Vi är dedikerade till att skapa skräddarsydda webbplatser som inte bara
@@ -88,7 +89,7 @@ export default function About() {
             className="text-start"
           >
             <p className="text-center pt-4">
-              Att välja rätt partner för webbutveckling och web design är
+              Att välja rätt partner för webbutveckling och webbdesign är
               avgörande för ditt företags onlineframgång. Här är varför du ska
               välja oss:
             </p>
@@ -99,8 +100,8 @@ export default function About() {
                 </span>{" "}
                 Vi erbjuder professionella lösningar till{" "}
                 <span className="font-medium">konkurrenskraftiga priser</span>,
-                vilket gör oss till ett kostnadseffektivt val för både små och
-                stora företag.
+                vilket gör oss till ett kostnadseffektivt val för små och stora
+                företag, samt privatpersoner.
               </li>
               <li className="mb-4">
                 <span className="font-bold underline underline-offset-2 text-lg">

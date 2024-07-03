@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Initialt möte angående mål, krav & förväntningar",
     location: "Kravspecifikation",
     description:
-      "Första steget är att ha ett initialt möte om förväntingar, krav och önskemål och mål. Detta är ett viktigt steg då det blir till underlag och en kravspecifikation bildas. Detta görs för att kunna slutföra ett lyckat projekt.",
+      "Första steget är att ha ett initialt möte om förväntingar, krav, önskemål och mål. Detta utgör sedan underlaget för projektet och en kravspecifikation bildas. Detta görs för att kunna slutföra ett lyckat projekt.",
     icon: React.createElement(IoMdContacts),
     date: "Första kontakt och kravspecifikation",
   },
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Förslag & Offert",
     location: "Offert",
     description:
-      "Andra steget är att vi skapar ett exempel på en design om hur er webbplats kan tänka sig se ut och verka. Detta görs med bland annat en designskiss. Detta görs i samband med en kostnadsfri offert. Som skickas till er.",
+      "Andra steget är att vi skapar en exempeldesign där det framgår hur din webbplats kan tänkas se ut och fungera. Detta görs med en sitemap och designskiss. Detta görs i samband med en kostnadsfri offert. Som skickas till dig.",
     icon: React.createElement(RiPresentationFill),
     date: "Förslag och offert",
   },
@@ -62,7 +62,7 @@ export const experiencesData = [
     title: "Uppföljning, avtal & fakturering",
     location: "Avtal",
     description:
-      "Tredje steget är att efter ni godkänt offerten, skickas ett avtal från oss som ska godkännas av både dig och av Adolfsson Digital. I samband med detta avtal så skickas även en faktura som ska betalas.",
+      "Tredje steget är att vi skickar ett projektavtal och en faktura. Avtalet ska godkännas och skrivas under av både dig och av Adolfsson Digital. I samband med betald faktura påbörjas projektet.",
     icon: React.createElement(FaFileInvoice),
     date: "Uppföljning och avtal",
   },
@@ -70,7 +70,7 @@ export const experiencesData = [
     title: "Utveckling, lansering & presentation av webbplats",
     location: "Utveckling & Lansering",
     description:
-      "I det fjärde och sista steget så utvecklar vi er webbplats efter önskad design och funktionalitet. Vårt mål är att överträffa samtliga krav och presentera ett färdigt projekt som lämnar klienten över förväntan",
+      "I det fjärde och sista steget utvecklar vi din webbplats efter önskad design och funktionalitet. Vårt mål är att överträffa samtliga krav och presentera ett färdigt projekt som lämnar klienten över förväntan",
     icon: React.createElement(FaLaptopCode),
     date: "Adolfsson Digital utför utveckling av webbplats, och presenterar färdigt projekt för klient",
   },
@@ -80,7 +80,7 @@ export const projectsData = [
   {
     title: "Soul Sisters",
     description:
-      "Webbplats för Soul Sisters (Mode och klädbutik i Bollnäs). Med målet för butiken att ha ett showroom och presentera senaste nyheterna med mera",
+      "Webbplats för Soul Sisters (Mode och klädbutik i Bollnäs). Klientens mål var att ha ett showroom och presentera de senaste nyheterna",
     tags: [
       "Next.js",
       "analytics",
@@ -139,7 +139,7 @@ export const servicesData = [
   {
     title: "Webbplats på en dag",
     description:
-      "Vi skapar en Webbplats på en dag. Detta paket inkluderar en Landingsida (Hem) och 3 ytterligare sidor som exempelvis Om oss, Kontakt, Tjänster. Perfekt för dig som är start up-bolag eller en privatperson som vill prova på eller ha en webbplats redan idag.",
+      "Vi skapar en webbplats på en dag. Detta paket inkluderar en landingsida (Hem) och tre ytterligare sidor som exempelvis Om oss, Kontakt, Tjänster. Perfekt för dig som är start up-bolag eller en privatperson som vill prova på att ha en webbplats redan idag.",
     tags: ["4 Sidor", "Copywriting", "SEO", "Lansering", "Responsiv design"],
     price: "10 000 SEK",
 
@@ -148,7 +148,7 @@ export const servicesData = [
   {
     title: "Skärddarsydd Webbplats",
     description:
-      "Vi skapar en skräddarsydd webbplats. Detta paket inkluderar det mesta (se tags). Vi bygger efter era krav och önskemål. Projektet Skapas i källkod med React.js/Next.js eller i plattformen Webflow",
+      "Vi skapar en skräddarsydd webbplats. Detta paket inkluderar det mesta (se tags). Vi bygger efter dina krav och önskemål. Projektet skapas i källkod med React.js/Next.js eller i plattformen Webflow",
     tags: [
       "Valfritt antal sidor",
       "Copywriting",
@@ -167,7 +167,7 @@ export const servicesData = [
   {
     title: "Konsult eller Serviceavtal",
     description:
-      "Behöver ditt team eller företag förstärkning? Anlita mig som utvecklare eller webbdesignkonsult. Jag hjälper er gärna med ert projekt. Behöver du hjälp med driften av din webbplats? Vi erbjuder serviceavtal för att hålla din webbplats uppdaterad och övervakad.",
+      "Behöver ditt team eller företag förstärkning? Anlita mig som utvecklare eller webbdesignkonsult. Vi hjälper dig gärna med ditt projekt. Behöver du hjälp med driften av din webbplats? Vi erbjuder serviceavtal för att hålla din webbplats uppdaterad och övervakad.",
 
     tags: [
       "React",

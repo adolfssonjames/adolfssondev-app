@@ -52,11 +52,11 @@ export default function Intro() {
           </strong>
         </span>
         <span className="text-xl sm:text-2xl mt-8 sm:mt-6 text-center">
-          Vi utvecklar webbplatser och hjälper dig digitaliseras
+          Vi utvecklar webbplatser och hjälper dig digitaliseras,
         </span>
         <span className="text-xl sm:text-2xl text-center">
           {" "}
-          Professionellt och Prisvärt
+          professionellt och prisvärt
         </span>
       </motion.h1>
 
