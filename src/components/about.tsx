@@ -49,11 +49,11 @@ export default function About() {
       <p className="mb-3  text-start">
         <span className="font-bold"> Välkommen till Adolfsson Digital</span>,
         din pålitliga partner för professionella och prisvärda tjänster inom
-        webbutveckling och webbdesign. Mitt namn är James och är baserad i
-        Stockholm. Med två års arbetserfarenhet och två års högskoleutbildning i
-        bagaget, är jag stolt över att presentera Adolfsson Digital och erbjuda
-        tjänster som hjälper dig att digitalisera ditt företag på bästa möjliga
-        sätt.
+        webbutveckling och webbdesign. Mitt namn är James och är grundare för
+        Adolfsson Digital som är baserad i Stockholm. Med två års
+        arbetserfarenhet och två års högskoleutbildning i bagaget, är jag stolt
+        över att presentera Adolfsson Digital och erbjuda tjänster som hjälper
+        dig att digitalisera ditt företag på bästa möjliga sätt.
       </p>
       <p className="mb-3  text-start">
         Vi är dedikerade till att skapa skräddarsydda webbplatser som inte bara

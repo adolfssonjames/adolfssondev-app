@@ -70,7 +70,7 @@ export const experiencesData = [
     title: "Utveckling, lansering & presentation av webbplats",
     location: "Utveckling & Lansering",
     description:
-      "I det fjärde och sista steget utvecklar vi din webbplats efter önskad design och funktionalitet. Vårt mål är att överträffa samtliga krav och presentera ett färdigt projekt som lämnar klienten över förväntan",
+      "I det fjärde och sista steget utvecklar vi din webbplats efter önskad design och funktionalitet. Vårt mål är att överträffa samtliga krav och presentera ett färdigt projekt som lämnar dig över förväntan",
     icon: React.createElement(FaLaptopCode),
     date: "Adolfsson Digital utför utveckling av webbplats, och presenterar färdigt projekt för klient",
   },
@@ -121,7 +121,7 @@ export const skillsData = [
     name: "Ulrika",
     role: "Grundare och säljare på Soul Sisters",
     testimonial:
-      '"Jag kan varmt rekommendera James på Adolfsson Digital. Han har hjälpt mig att skapa en webbplats åt min butik Soul Sisters. Jag är mycket nöjd med resultatet. James är lyhörd. Jag är mycket nöjd med samarbetet och jag kommer att anlita honom igen för framtida projekt"',
+      '"Jag kan varmt rekommendera James på Adolfsson Digital. Han har hjälpt mig att skapa en webbplats åt min butik. Jag är mycket nöjd med resultatet. James är lyhörd. Jag är mycket nöjd med samarbetet och jag kommer att anlita honom igen för framtida projekt"',
   },
   {
     name: "Elvira",
