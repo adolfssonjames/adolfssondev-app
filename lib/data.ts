@@ -167,7 +167,7 @@ export const servicesData = [
   {
     title: "Konsult eller Serviceavtal",
     description:
-      "Behöver ditt team eller företag förstärkning? Anlita mig som utvecklare eller webbdesignkonsult. Vi hjälper dig gärna med ditt projekt. Behöver du hjälp med driften av din webbplats? Vi erbjuder serviceavtal för att hålla din webbplats uppdaterad och övervakad.",
+      "Behöver ditt team eller företag förstärkning? Anlita mig som utvecklare eller webbdesignkonsult. Jag hjälper dig gärna med ditt projekt. Behöver du hjälp med driften av din webbplats? Jag erbjuder serviceavtal för att hålla din webbplats uppdaterad och övervakad.",
 
     tags: [
       "React",
