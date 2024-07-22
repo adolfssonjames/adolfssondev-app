@@ -57,17 +57,17 @@ export default function About() {
       </p>
       <p className="mb-3  text-start">
         Vi är dedikerade till att skapa skräddarsydda webbplatser som inte bara
-        ser fantastiska ut, utan också är säljande och engagerande för besökare.
-        Vi lägger stort fokus på copywriting och förstår vikten av att varje ord
-        på din webbplats ska väcka intresse och driva försäljning. Vi arbetar
-        nära våra kunder för att säkerställa att deras unika budskap och
-        varumärke kommer fram på bästa möjliga sätt.
+        ser tillfredställande ut med en anpassad design, utan också är säljande
+        och engagerande för besökare. Vi lägger stort fokus på copywriting och
+        förstår vikten av att varje ord på din webbplats ska väcka intresse och
+        driva försäljning. Vi arbetar nära våra kunder för att säkerställa att
+        deras unika budskap och varumärke kommer fram på bästa möjliga sätt.
       </p>
       <p className="mb-3  text-start">
         Låt oss hjälpa dig att skapa en webbplats som inte bara representerar
         ditt företag, utan också förvandlar besökare till kunder. Kontakta oss
-        idag för att ta din online närvaro till nästa nivå, oavsett var du
-        befinner dig.
+        idag för en gratis offert och ta din online-närvaro till nästa nivå,
+        prisvärt och smidigt.
       </p>
       <div className="flex justify-center">
         {" "}
