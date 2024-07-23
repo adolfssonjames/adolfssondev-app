@@ -78,20 +78,6 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Soul Sisters",
-    description:
-      "Webbplats för Soul Sisters (Mode och klädbutik i Bollnäs). Klientens mål var att ha ett showroom och presentera de senaste nyheterna",
-    tags: [
-      "Next.js",
-      "analytics",
-      "perfomance-statistics",
-      "Tailwind",
-      "TypeScript",
-    ],
-    imageUrl: soulsistersImg2,
-    projectUrl: "https://soulsistershop.se",
-  },
-  {
     title: "Adolfsson Digital",
     description:
       "Detta är företagets webbplats. Webbplatsen du för närvarande befinner dig på är snabb, responsiv och SEO-vänlig. Byggd med Next.js och TypeScript.",
@@ -105,6 +91,20 @@ export const projectsData = [
     ],
     imageUrl: adolfssondigitalImg2,
     projectUrl: "https://adolfssondigital.com",
+  },
+  {
+    title: "Soul Sisters",
+    description:
+      "Webbplats för Soul Sisters (Mode och klädbutik i Bollnäs). Klientens mål var att ha ett showroom och presentera de senaste nyheterna",
+    tags: [
+      "Next.js",
+      "analytics",
+      "perfomance-statistics",
+      "Tailwind",
+      "TypeScript",
+    ],
+    imageUrl: soulsistersImg2,
+    projectUrl: "https://soulsistershop.se",
   },
   {
     title: "Elvira Cornelia - Interior Designer",
