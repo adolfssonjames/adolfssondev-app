@@ -1,5 +1,6 @@
 import Header from "@/components/header";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Figtree } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/active-section-context"; //paket som håller koll på vilken section som är aktiv
 import { Metadata } from "next";
@@ -32,6 +33,7 @@ export default function RootLayout({
           <ThemeContextProvider>
             <Header />
             {children}
+            <SpeedInsights />
             <Analytics />
             <Footer />
             <Toaster position="bottom-center" />
