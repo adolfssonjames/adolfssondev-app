@@ -148,7 +148,7 @@ export const servicesData = [
   {
     title: "Skärddarsydd Webbplats",
     description:
-      "Vi skapar en skräddarsydd webbplats. Detta paket inkluderar det mesta (se tags). Vi bygger efter dina krav och önskemål. Projektet skapas i källkod med React.js/Next.js eller i plattformen Webflow",
+      "Vi skapar en skräddarsydd webbplats. Detta paket inkluderar det mesta (se tags). Vi bygger efter dina krav och önskemål. Projektet skapas i källkod med React.js/Next.js eller i plattformen Webflow.",
     tags: [
       "Valfritt antal sidor",
       "Copywriting",
@@ -167,7 +167,7 @@ export const servicesData = [
   {
     title: "Konsult eller Serviceavtal",
     description:
-      "Behöver ditt team eller företag förstärkning? Anlita mig som utvecklare eller webbdesignkonsult. Jag hjälper dig gärna med ditt projekt. Behöver du hjälp med driften av din webbplats? Jag erbjuder serviceavtal för att hålla din webbplats uppdaterad och övervakad.",
+      "Om du är i behov av bemanning så kan du anlita mig som utvecklare eller webbdesignkonsult. Behöver du hjälp med driften av din webbplats? Jag erbjuder serviceavtal för att hålla din webbplats uppdaterad och övervakad.",
 
     tags: [
       "React",

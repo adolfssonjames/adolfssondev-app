@@ -27,7 +27,9 @@ export default function Service({
       <section className=" group text-center bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[30rem] hover:bg-slate-200 transition ml-4 sm:group-even:pl-10 cursor-default  ">
         <motion.div className=" pt-4 pb-16 px-5 sm:px-4 sm:pl-6 sm:pr-0 sm:pt-8 sm:max-w-[100%] flex flex-col h-full sm:group-even:ml-[18rem]">
           <h3 className="text-2xl font-semibold text-gray-700">{title}</h3>
-          <p className="mt-2 leading-relaxed text-gray-700">{description}</p>
+          <p className="mt-1 mb-1 ml-2 leading-relaxed text-gray-700 text-left">
+            {description}
+          </p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto sm:mb-auto">
             {tags.map((tag, index) => (
               <li
@@ -38,7 +40,7 @@ export default function Service({
               </li>
             ))}
           </ul>
-          <div className="group:hover:scale-110 pt-2 sm:pt-4 text-slate-900 font-light text-xl">
+          <div className="group:hover:scale-110 pt-2 sm:pt-4 text-slate-900 font-light text-xl ">
             {price} {price2}
           </div>
         </motion.div>
