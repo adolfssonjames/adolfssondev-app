@@ -38,7 +38,7 @@ export default function Testimonials() {
             >
               <p className="font-bold">{testimonial.name}</p>
               <p className="font-medium">{testimonial.role}</p>
-              <p>{testimonial.testimonial}</p>
+              <p className="italic">{testimonial.testimonial}</p>
             </motion.li>
           ))}
         </ul>
