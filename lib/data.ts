@@ -126,12 +126,12 @@ export const skillsData = [
   {
     name: "Elvira",
     role: "Frilansare & Inredningsarkitekt",
-    testimonial: "Kommande",
+    testimonial: "Kommande recension",
   },
   {
     name: "Det här kan vara du",
     role: "Företagare eller privatperson",
-    testimonial: "  Kommande",
+    testimonial: "  Kommande recension",
   },
 ] as const;
 
