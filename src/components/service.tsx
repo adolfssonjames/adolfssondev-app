@@ -40,7 +40,7 @@ export default function Service({
               </li>
             ))}
           </ul>
-          <div className="group:hover:scale-110 pt-2 sm:pt-4 text-slate-900 font-light text-xl ">
+          <div className="group:hover:scale-110 pt-2 sm:pt-4 text-slate-600 font-medium text-lg ">
             {price} {price2}
           </div>
         </motion.div>
