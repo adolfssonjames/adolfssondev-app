@@ -14,7 +14,7 @@ const font = Figtree({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Adolfsson Digital",
   description:
-    "Adolfsson Digital utvecklar webbplatser, webbdesign och erbjuder konsulttjänster. Professionellt och Prisvärt",
+    "Adolfsson Digital utvecklar webbplatser, webbdesign och erbjuder konsulttjänster inom programmering. Professionellt och Prisvärt",
   icons: "/favicon.jpg",
 };
 export default function RootLayout({
