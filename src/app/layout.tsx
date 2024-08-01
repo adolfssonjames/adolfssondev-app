@@ -12,9 +12,9 @@ import ThemeContextProvider from "@/context/theme-context";
 const font = Figtree({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Adolfsson Digital",
+  title: "Prisvärda Webblösningar & Digitalisering | Adolfsson Digital",
   description:
-    "Adolfsson Digital utvecklar webbplatser, webbdesign och erbjuder konsulttjänster inom programmering. Professionellt och Prisvärt",
+    "Adolfsson Digital erbjuder webbdesign, skräddarsydd utveckling och webbprogrammering. Få en webbplats på en dag eller en anpassad skräddarsydd lösning!",
   icons: "/favicon.jpg",
 };
 export default function RootLayout({

@@ -22,7 +22,7 @@ export default function Header() {
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
 
-      <div className="text-lg fixed top-[0.15rem] left-0 h-11 py-2 sm:top-[1.7rem] pl-2 sm:pl-10 sm:left-0 sm:h-[initial] sm:py-0 flex justify-between items-center w-full px-4 sm:hidden">
+      <div className="text-lg fixed top-[0.15rem] left-0 h-11 py-2 sm:top-[1.7rem] pl-2 mt-1 sm:pl-10 sm:left-0 sm:h-[initial] sm:py-0 flex justify-between items-center w-full px-4 sm:hidden">
         <Link className="dark:text-slate-700 font-semibold " href={"/"}></Link>
 
         <button onClick={() => setIsOpen(!isOpen)}>
@@ -57,9 +57,13 @@ export default function Header() {
         </nav>
       )}
 
-      <div className="text-lg fixed top-[0.15rem]  left-0 h-12 py-2 sm:top-[1.7rem] pl-2 sm:pl-10 sm:left-0 sm:h-[initial] sm:py-0">
+      <div className="text-lg fixed top-[0.15rem]  left-0 h-12 py-2 sm:top-[1.7rem] pl-2 mt-3 sm:pl-28 sm:mt-14 sm:left-0 sm:h-[initial] sm:py-0 lg:mt-0 lg:pl-10">
         <Link className="dark:text-slate-700 font-semibold " href={"/"}>
-          Adolfsson Digital
+          <img
+            src="adolfsson-digital-logo.png"
+            alt="Company logo"
+            className="w-32 sm:w-44 "
+          />
         </Link>
       </div>
 
