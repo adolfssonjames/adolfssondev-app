@@ -24,7 +24,7 @@ export default function Ourservices() {
         <div className="flex flex-col sm:flex-row ">
           {servicesData.map((service, index) => (
             <React.Fragment key={index}>
-              <div className="sm:w-1/3">
+              <div className="sm:w-1/3 ">
                 <Service {...service} />
               </div>
             </React.Fragment>

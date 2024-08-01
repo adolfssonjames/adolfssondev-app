@@ -148,7 +148,7 @@ export const servicesData = [
       "Responsiv design",
       "CMS",
     ],
-    price: "8 000 SEK inkl. moms",
+    price: "6000 SEK exkl. moms",
 
     price2: "",
   },
@@ -168,7 +168,7 @@ export const servicesData = [
       "Analytics",
       "30-dagar gratis underhåll",
     ],
-    price: "Från 10 000 SEK inkl. moms",
+    price: "Från 10 000 SEK exkl. moms",
     price2: "",
   },
   {
@@ -187,6 +187,6 @@ export const servicesData = [
       "performance rapportering",
     ],
     price: "Konsult: 300 SEK/Timme",
-    price2: "Serviceavtal: 500 SEK/Månad",
+    price2: "Serviceavtal: 450 SEK/Månad",
   },
 ] as const;

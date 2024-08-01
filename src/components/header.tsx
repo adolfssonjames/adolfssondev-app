@@ -4,15 +4,16 @@ import { motion } from "framer-motion";
 import { links } from "../../lib/data";
 import Link from "next/link";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import clsx from "clsx"; //paket som conditionally renderar ut style
+import clsx from "clsx";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FaRegWindowClose } from "react-icons/fa";
+import { useTheme } from "@/context/theme-context"; // Import the theme context
 
 export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
-  useState("Hem");
   const [isOpen, setIsOpen] = useState(false);
+  const { theme } = useTheme(); // Consume the theme context
 
   return (
     <header className="z-[999] relative">
@@ -21,14 +22,6 @@ export default function Header() {
         initial={{ y: 200, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
-
-      <div className="text-lg fixed top-[0.15rem] left-0 h-11 py-2 sm:top-[1.7rem] pl-2 mt-1 sm:pl-10 sm:left-0 sm:h-[initial] sm:py-0 flex justify-between items-center w-full px-4 sm:hidden">
-        <Link className="dark:text-slate-700 font-semibold " href={"/"}></Link>
-
-        <button onClick={() => setIsOpen(!isOpen)}>
-          <RxHamburgerMenu className="text-white text-2xl dark:text-slate-600" />
-        </button>
-      </div>
 
       {isOpen && (
         <nav className="fixed top-0 left-0 w-full h-full  text-white bg-slate-950 bg-opacity-95 dark:bg-slate-100 dark:bg-opacity-95 dark:text-slate-950 text-lg">
@@ -57,14 +50,29 @@ export default function Header() {
         </nav>
       )}
 
-      <div className="text-lg fixed top-[0.15rem]  left-0 h-12 py-2 sm:top-[1.7rem] pl-2 mt-3 sm:pl-28 sm:mt-14 sm:left-0 sm:h-[initial] sm:py-0 lg:mt-0 lg:pl-10">
-        <Link className="dark:text-slate-700 font-semibold " href={"/"}>
-          <img
-            src="adolfsson-digital-logo.png"
-            alt="Company logo"
-            className="w-32 sm:w-44 "
-          />
+      <div className="text-lg fixed top-[0.15rem]  left-0 h-12 py-2 sm:top-[1.7rem] pl-2 sm:pl-10 sm:left-0 sm:h-[initial] sm:py-0">
+        <Link className="" href={"/"}>
+          {theme === "dark" ? (
+            <img
+              src="adolfsson-digital-logo.png"
+              alt="Adolfsson Digital"
+              className="w-32 sm:w-36 md:w-36 lg:w-44 pt-3 sm:pt-14 sm:mx-16 md:pt-14 md:mx-20 lg:pt-2 lg:mx-0 xl:pt-2 xl:mx-0"
+            />
+          ) : (
+            <img
+              src="adolfsson-digital-logo2.png"
+              alt="Adolfsson Digital"
+              className="w-32 sm:w-36 md:w-36 lg:w-44 pt-3 sm:pt-14 sm:mx-16 md:pt-14 md:mx-20 lg:pt-2 lg:mx-0 xl:pt-2 xl:mx-0"
+            />
+          )}
         </Link>
+        <div className="text-lg fixed top-[0.15rem] left-0 h-11 py-2 sm:top-[1.7rem] pl-2 sm:pl-10 sm:left-0 sm:h-[initial] sm:py-0 flex justify-between items-center w-full px-4 sm:hidden">
+          <Link className="" href={"/"}></Link>
+
+          <button onClick={() => setIsOpen(!isOpen)}>
+            <RxHamburgerMenu className="text-white text-2xl dark:text-slate-600 mt-2" />
+          </button>
+        </div>
       </div>
 
       <nav className="hidden sm:block fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0 ">
