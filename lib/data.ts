@@ -169,7 +169,7 @@ export const servicesData = [
       "30-dagar gratis underhåll",
     ],
     price: "Från 10 000 SEK exkl. moms",
-    price2: "",
+    price2: "Kampanj: Just nu 50% rabatt. (5000 SEK exkl. moms)",
   },
   {
     title: "Konsult eller Serviceavtal",

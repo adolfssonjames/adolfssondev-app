@@ -24,7 +24,7 @@ export default function Header() {
       ></motion.div>
 
       {isOpen && (
-        <nav className="fixed top-0 left-0 w-full h-full  text-white bg-slate-950 bg-opacity-95 dark:bg-slate-100 dark:bg-opacity-95 dark:text-slate-950 text-lg">
+        <nav className="fixed top-0 left-0 w-full h-full text-white bg-slate-950 bg-opacity-95 dark:bg-slate-100 dark:bg-opacity-95 dark:text-slate-950 text-lg z-[1000]">
           <ul className="mt-14 text-center w-full">
             {links.map((link) => (
               <li className="py-2" key={link.hash}>
@@ -41,16 +41,29 @@ export default function Header() {
               </li>
             ))}
           </ul>
+
           <button
-            className="absolute top-2 right-2 text-white"
-            onClick={() => setIsOpen(false)}
+            className="absolute top-2 right-2 text-white z-[1001]" // Increased z-index
+            onClick={() => {
+              console.log("Close button clicked");
+              setIsOpen(false);
+            }}
           >
             <FaRegWindowClose className="text-white dark:text-slate-700 text-3xl mt-1 mr-2" />
           </button>
         </nav>
       )}
+      <div className="text-lg fixed top-[0.15rem] left-0 h-11 py-2 sm:top-[1.7rem] pl-2 sm:pl-10 sm:left-0 sm:h-[initial] sm:py-0 flex justify-between items-center w-full px-4 sm:hidden">
+        <Link className="" href={"/"}></Link>
 
-      <div className="text-lg fixed top-[0.15rem]  left-0 h-12 py-2 sm:top-[1.7rem] pl-2 sm:pl-10 sm:left-0 sm:h-[initial] sm:py-0">
+        {!isOpen && (
+          <button className="z-[1000]" onClick={() => setIsOpen(!isOpen)}>
+            <RxHamburgerMenu className="text-white text-2xl dark:text-slate-600 mt-2" />
+          </button>
+        )}
+      </div>
+
+      <div className="text-lg fixed top-[0.1rem] left-0 h-12 py-2 sm:top-[1.7rem] pl-2 sm:pl-10 sm:left-0 sm:h-[initial] sm:py-0 z-[998]">
         <Link className="" href={"/"}>
           {theme === "dark" ? (
             <img
@@ -66,16 +79,9 @@ export default function Header() {
             />
           )}
         </Link>
-        <div className="text-lg fixed top-[0.15rem] left-0 h-11 py-2 sm:top-[1.7rem] pl-2 sm:pl-10 sm:left-0 sm:h-[initial] sm:py-0 flex justify-between items-center w-full px-4 sm:hidden">
-          <Link className="" href={"/"}></Link>
-
-          <button onClick={() => setIsOpen(!isOpen)}>
-            <RxHamburgerMenu className="text-white text-2xl dark:text-slate-600 mt-2" />
-          </button>
-        </div>
       </div>
 
-      <nav className="hidden sm:block fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0 ">
+      <nav className="hidden sm:block fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
         <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-300 dark:text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-3">
           {links.map((link) => (
             <motion.li
