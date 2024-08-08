@@ -40,7 +40,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col">
           <small> &copy; 2024 Adolfsson Digital </small>{" "}
-          <small> Kryssvägen 5, 13953, Stockholm </small>{" "}
+          <small> James Adolfsson, Kryssvägen 5, 13953, Stockholm </small>{" "}
           <small> Org.nr: 19950902XXXX - lämnas på begäran </small>{" "}
           <small> Godkänd för F-skatt </small>{" "}
         </div>
