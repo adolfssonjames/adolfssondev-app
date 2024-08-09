@@ -238,6 +238,10 @@ export default function Footer() {
                   Radering: Du kan begära att vi raderar dina personuppgifter,
                   med förbehåll för vissa undantag.
                 </li>
+                <li className=" ml-4">
+                  Invändning: Du har rätt att göra invändningar mot behandlingen
+                  av dina data i vissa situationer.
+                </li>
                 <p>
                   För att utöva några av dessa rättigheter, vänligen kontakta
                   oss på james@adolfssondigital.com.
