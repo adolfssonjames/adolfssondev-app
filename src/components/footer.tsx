@@ -160,9 +160,9 @@ export default function Footer() {
                 Begäran om Radering eller Ändring: Om du önskar att den
                 personliga information du lämnat genom vårt kontaktformulär
                 raderas eller ändras kan du skicka en begäran till oss på
-                [infoga kontaktinformation, t.ex. e-postadress]. Vi kommer att
-                behandla din begäran snarast, med förbehåll för eventuella
-                juridiska skyldigheter att behålla viss data.
+                james@adolfssondigital.com. Vi kommer att behandla din begäran
+                snarast, med förbehåll för eventuella juridiska skyldigheter att
+                behålla viss data.
               </p>
               <div>
                 <h3 className="font-bold text-lg pt-2">
@@ -244,11 +244,12 @@ export default function Footer() {
                 </p>
               </div>
               <div>
-                <h3>6. Kakor (cookies) och Spårningsteknologier</h3>
+                <h3 className="font-bold text-lg pt-2">
+                  6. Kakor (cookies) och Spårningsteknologier
+                </h3>
                 <p>
-                  Vi använder inte traditionella tredjepartskakor genom Vercel
-                  Web Analytics. Istället kan vi använda andra
-                  spårningsteknologier som följer de högsta
+                  Vi använder inte traditionella tredjepartskakor. Istället
+                  använder vi andra spårningsteknologier som följer de högsta
                   integritetsstandarderna och som enbart tillåter oss att
                   använda aggregerad, icke-identifierbar data. Du kan
                   kontrollera användningen av dessa teknologier genom dina
