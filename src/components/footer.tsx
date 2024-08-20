@@ -42,8 +42,8 @@ export default function Footer() {
           <ul className="flex flex-col gap-2 text-center sm:text-start">
             <p className="text-lg text-center sm:text-start">Kontakt</p>
             <li>
-              <a href="mailto:james@adolfssondigital.com">
-                james@adolfssondigital.com
+              <a href="mailto:adolfssondigital@gmail.com">
+                adolfssondigital@gmail.com
               </a>
             </li>
             <li>
@@ -69,7 +69,7 @@ export default function Footer() {
           className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
           onClick={handleOverlayClick}
         >
-          <div className="bg-white p-6 rounded shadow-lg w-2/3 mt-10 text-black max-h-[80vh] overflow-y-auto">
+          <div className="bg-white p-6 rounded shadow-lg sm:w-2/3 w-full mt-10 text-black max-h-[80vh] overflow-y-auto">
             <h2 className="text-xl mb-4">Integritetspolicy</h2>
             <div>
               <h3 className="font-bold text-lg">1. Introduktion</h3>
@@ -160,7 +160,7 @@ export default function Footer() {
                 Begäran om Radering eller Ändring: Om du önskar att den
                 personliga information du lämnat genom vårt kontaktformulär
                 raderas eller ändras kan du skicka en begäran till oss på
-                james@adolfssondigital.com. Vi kommer att behandla din begäran
+                adolfssondigital@gmail.com. Vi kommer att behandla din begäran
                 snarast, med förbehåll för eventuella juridiska skyldigheter att
                 behålla viss data.
               </p>
@@ -244,7 +244,7 @@ export default function Footer() {
                 </li>
                 <p>
                   För att utöva några av dessa rättigheter, vänligen kontakta
-                  oss på james@adolfssondigital.com.
+                  oss på adolfssondigital@gmail.com.
                 </p>
               </div>
               <div>
@@ -281,8 +281,8 @@ export default function Footer() {
                 </p>
               </div>
               E-post:{" "}
-              <a href="mailto:james@adolfssondigital.com">
-                james@adolfssondigital.com
+              <a href="mailto:adolfssondigital@gmail.com">
+                adolfssondigital@gmail.com
               </a>
               <small className=" flex flex-col pt-4">
                 Org.nr: 19950902XXXX - fullständig lämnas på begäran
@@ -290,7 +290,7 @@ export default function Footer() {
             </div>
             <div className="flex justify-center sticky bottom-0">
               <button
-                className=" mt-4 px-4 py-2 bg-slate-600 text-white rounded-full sm:px-20"
+                className=" mt-4 px-12 py-3 bg-slate-600 text-white rounded-full sm:px-20 hover:bg-slate-900 duration-200"
                 onClick={closeModal}
               >
                 Stäng

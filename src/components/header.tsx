@@ -69,13 +69,13 @@ export default function Header() {
             <img
               src="adolfsson-digital-logo.png"
               alt="Adolfsson Digital"
-              className="w-32 sm:w-36 md:w-36 lg:w-44 pt-3 sm:pt-14 sm:mx-16 md:pt-14 md:mx-20 lg:pt-2 lg:mx-0 xl:pt-2 xl:mx-0"
+              className="w-32 sm:w-32 md:w-32 lg:w-36 pt-3 sm:pt-14 sm:mx-16 md:pt-14 md:mx-20 lg:pt-2 lg:mx-0 xl:pt-2 xl:mx-0"
             />
           ) : (
             <img
               src="adolfsson-digital-logo2.png"
               alt="Adolfsson Digital"
-              className="w-32 sm:w-36 md:w-36 lg:w-44 pt-3 sm:pt-14 sm:mx-16 md:pt-14 md:mx-20 lg:pt-2 lg:mx-0 xl:pt-2 xl:mx-0"
+              className="w-32 sm:w-32 md:w-32 lg:w-36 pt-3 sm:pt-14 sm:mx-16 md:pt-14 md:mx-20 lg:pt-2 lg:mx-0 xl:pt-2 xl:mx-0"
             />
           )}
         </Link>

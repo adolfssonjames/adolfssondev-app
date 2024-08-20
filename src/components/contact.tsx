@@ -26,7 +26,7 @@ export default function Contact() {
       {/* <p className=" -mt-5">
         kontakta mig här nedan eller här{" "} */}
       <a className="underline" href="mailto:james@adolfssondigital.com">
-        james@adolfssondigital.com
+        adolfssondigital@gmail.com
       </a>
       {/* </p> */}
       <p className="pt-2">
