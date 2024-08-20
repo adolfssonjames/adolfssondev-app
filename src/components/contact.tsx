@@ -25,7 +25,7 @@ export default function Contact() {
       <SectionHeading>Kontakt</SectionHeading>
       {/* <p className=" -mt-5">
         kontakta mig här nedan eller här{" "} */}
-      <a className="underline" href="mailto:james@adolfssondigital.com">
+      <a className="underline" href="mailto:adolfssondigital@gmail.com">
         adolfssondigital@gmail.com
       </a>
       {/* </p> */}
