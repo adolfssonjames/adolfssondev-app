@@ -28,7 +28,7 @@ export const links = [
     hash: "#testimonials",
   },
   {
-    name: "Tidslinje",
+    name: "Leverans",
     hash: "#project-timeline",
   },
   {
@@ -67,7 +67,7 @@ export const experiencesData = [
     date: "Uppföljning och avtal",
   },
   {
-    title: "Utveckling, lansering & presentation av webbplats",
+    title: "Utveckling, lansering & leverans av webbplats",
     location: "Utveckling & Lansering",
     description:
       "I det fjärde och sista steget utvecklar vi din webbplats efter önskad design och funktionalitet. Vårt mål är att överträffa samtliga krav och presentera ett färdigt projekt som lämnar dig över förväntan",

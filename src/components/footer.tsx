@@ -42,8 +42,8 @@ export default function Footer() {
           <ul className="flex flex-col gap-2 text-center sm:text-start">
             <p className="text-lg text-center sm:text-start">Kontakt</p>
             <li>
-              <a href="mailto:adolfssondigital@gmail.com">
-                adolfssondigital@gmail.com
+              <a href="mailto:james@adolfssondigital.com">
+                james@adolfssondigital.com
               </a>
             </li>
             <li>
@@ -160,7 +160,7 @@ export default function Footer() {
                 Begäran om Radering eller Ändring: Om du önskar att den
                 personliga information du lämnat genom vårt kontaktformulär
                 raderas eller ändras kan du skicka en begäran till oss på
-                adolfssondigital@gmail.com. Vi kommer att behandla din begäran
+                james@adolfssondigital.com. Vi kommer att behandla din begäran
                 snarast, med förbehåll för eventuella juridiska skyldigheter att
                 behålla viss data.
               </p>
@@ -244,7 +244,7 @@ export default function Footer() {
                 </li>
                 <p>
                   För att utöva några av dessa rättigheter, vänligen kontakta
-                  oss på adolfssondigital@gmail.com.
+                  oss på james@adolfssondigital.com.
                 </p>
               </div>
               <div>
@@ -281,8 +281,8 @@ export default function Footer() {
                 </p>
               </div>
               E-post:{" "}
-              <a href="mailto:adolfssondigital@gmail.com">
-                adolfssondigital@gmail.com
+              <a href="mailto:james@adolfssondigital.com">
+                james@adolfssondigital.com
               </a>
               <small className=" flex flex-col pt-4">
                 Org.nr: 19950902XXXX - fullständig lämnas på begäran

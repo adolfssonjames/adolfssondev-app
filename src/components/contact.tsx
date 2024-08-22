@@ -25,8 +25,8 @@ export default function Contact() {
       <SectionHeading>Kontakt</SectionHeading>
       {/* <p className=" -mt-5">
         kontakta mig här nedan eller här{" "} */}
-      <a className="underline" href="mailto:adolfssondigital@gmail.com">
-        adolfssondigital@gmail.com
+      <a className="underline" href="mailto:james@adolfssondigital.com">
+        james@adolfssondigital.com
       </a>
       {/* </p> */}
       <p className="pt-2">
@@ -44,7 +44,42 @@ export default function Contact() {
             toast.error(error);
             return;
           }
-          toast.success("Meddelandet har skickats");
+          toast.custom((t) => (
+            <div
+              className={`${
+                t.visible ? "animate-enter" : "animate-leave"
+              } max-w-md w-full bg-white shadow-lg rounded-lg pointer-events-auto flex ring-1 ring-black ring-opacity-5`}
+            >
+              <div className="flex-1 w-0 p-4">
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 pt-0.5">
+                    <img
+                      className="h-10 w-10 rounded-full"
+                      src="favicon.jpg"
+                      alt="Adolfsson Digital"
+                    />
+                  </div>
+                  <div className="ml-3 flex-1">
+                    <p className="text-sm font-medium text-gray-900">
+                      Adolfsson Digital
+                    </p>
+                    <p className="mt-1 text-sm text-gray-500">
+                      Ditt meddelande har skickats. Vi återkommer så snart som
+                      möjligt.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex border-l border-gray-200">
+                <button
+                  onClick={() => toast.dismiss(t.id)}
+                  className="w-full border border-transparent rounded-none rounded-r-lg p-4 flex items-center justify-center text-sm font-medium text-slate-700 hover:text-blue-950 focus:outline-none focus:ring-2 focus:ring-blue-950"
+                >
+                  Stäng
+                </button>
+              </div>
+            </div>
+          ));
           setSenderEmail("");
           setMessage("");
         }}

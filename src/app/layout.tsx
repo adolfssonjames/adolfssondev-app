@@ -36,7 +36,7 @@ export default function RootLayout({
             <SpeedInsights />
             <Analytics />
             <Footer />
-            <Toaster position="bottom-center" />
+            <Toaster position="top-center" />
             <ThemeSwitch />
           </ThemeContextProvider>
         </ActiveSectionContextProvider>

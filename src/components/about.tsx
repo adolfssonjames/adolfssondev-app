@@ -38,12 +38,12 @@ export default function About() {
             height={500}
             quality={99}
             priority={true}
-            className="h-60 w-60 rounded-full object-cover  shadow-xl shadow-cyan-950 dark:shadow-blue-100 "
+            className="h-60 w-60 rounded-full object-cover  shadow-xl shadow-slate-950 dark:shadow-slate-400 border-8 border-gray-700 dark:border-gray-300 "
           />
         </motion.div>
         <div className="absolute flex items-center justify-center flex-col  text-white h-60 w-60 opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-slate-700 bg-opacity-45 rounded-full">
           <p className="">James Adolfsson</p>
-          <p>Webbutvecklare & Webbdesigner</p>
+          <p className="text-sm">Webbutvecklare & Webbdesigner</p>
         </div>
       </div>
       <p className="mb-3  text-start">
@@ -94,14 +94,15 @@ export default function About() {
               välja oss:
             </p>
             <ul className="mt-8">
-              <li className="mb-4">
+              <li className="mb-4 flex flex-col">
                 <span className="font-bold underline underline-offset-2 text-lg">
-                  Prisvärda Tjänster
+                  Prisvärda Tjänster - slipp månadsavgifter
                 </span>{" "}
-                Vi erbjuder professionella lösningar till{" "}
-                <span className="font-medium">konkurrenskraftiga priser</span>,
-                vilket gör oss till ett kostnadseffektivt val för små och stora
-                företag, samt privatpersoner.
+                Vi erbjuder professionella lösningar till konkurrenskraftiga
+                priser vilket gör oss till ett kostnadseffektivt val för små och
+                stora företag, samt privatpersoner. Med oss betalar du endast en
+                fast summa för din webbplats. Slipp månadsavgifter och
+                bindningstider. Obs. Detta gäller ej vår tjänst "serviceavtal".
               </li>
               <li className="mb-4">
                 <span className="font-bold underline underline-offset-2 text-lg">
@@ -124,9 +125,9 @@ export default function About() {
                 <span className="font-bold underline underline-offset-2 text-lg">
                   Skräddarsydda Lösningar
                 </span>{" "}
-                Vi lägger stort fokus på copywriting och anpassar varje
-                webbplats efter klientens behov och krav för att maximera dess
-                säljande potential och engagera besökare.
+                Vi lägger stort fokus på design och copywriting. Vi anpassar
+                varje webbplats efter klientens behov och krav för att maximera
+                dess säljande potential och engagera besökare.
               </li>
             </ul>
           </motion.div>
