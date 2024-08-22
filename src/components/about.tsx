@@ -38,7 +38,7 @@ export default function About() {
             height={500}
             quality={99}
             priority={true}
-            className="h-60 w-60 rounded-full object-cover  shadow-xl shadow-slate-950 dark:shadow-slate-400 border-8 border-gray-700 dark:border-gray-300 "
+            className="h-60 w-60 rounded-full object-cover  shadow-xl shadow-slate-950 dark:shadow-slate-400 border-8 border-gray-700 dark:border-gray-200 "
           />
         </motion.div>
         <div className="absolute flex items-center justify-center flex-col  text-white h-60 w-60 opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-slate-700 bg-opacity-45 rounded-full">

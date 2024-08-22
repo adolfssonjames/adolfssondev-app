@@ -155,7 +155,7 @@ export const servicesData = [
   {
     title: "Skärddarsydd Webbplats",
     description:
-      "Vi skapar en skräddarsydd webbplats. Detta paket inkluderar det mesta (se tags). Vi bygger efter dina krav och önskemål. Projektet skapas i källkod med React.js/Next.js eller i plattformen Webflow.",
+      "Vi skapar en skräddarsydd webbplats. Detta paket inkluderar det mesta (se tags). Vi bygger efter dina krav och önskemål. Webbplatsen skapas i källkod med React.js/Next.js eller i plattformen Webflow.",
     tags: [
       "Valfritt antal sidor",
       "Copywriting",
