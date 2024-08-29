@@ -186,7 +186,7 @@ export const servicesData = [
       "Uppdateringar",
       "performance rapportering",
     ],
-    price: "Konsult: 300 SEK/Timme",
+    price: "Konsult: 400 SEK/Timme",
     price2: "Serviceavtal: 450 SEK/Månad",
   },
 ] as const;
