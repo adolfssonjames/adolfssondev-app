@@ -4,7 +4,8 @@ import { IoMdContacts } from "react-icons/io";
 import { RiPresentationFill } from "react-icons/ri";
 import { FaLaptopCode } from "react-icons/fa";
 
-import test from "node:test";
+import placeholderImg from "../public/placeholderImg.jpg";
+import soulsistersImg2 from "../public/soulsisters2.png";
 
 export const links = [
   {
@@ -85,7 +86,7 @@ export const projectsData = [
       "Framer-motion",
       "Resend",
     ],
-    imageUrl: "",
+    imageUrl: adolfssondigitalImg2,
     projectUrl: "https://adolfssondigital.com",
   },
   {
@@ -99,7 +100,7 @@ export const projectsData = [
       "Tailwind",
       "TypeScript",
     ],
-    imageUrl: "",
+    imageUrl: soulsistersImg2,
     projectUrl: "https://soulsistershop.se",
   },
   {
@@ -107,7 +108,7 @@ export const projectsData = [
     description:
       "För närvarande under utveckling. Detta är en portföljwebbplats för en inredningsarkitekt och designer.",
     tags: ["Under utveckling"],
-    imageUrl: "",
+    imageUrl: placeholderImg,
     projectUrl: "https://www.adolfssondigital.com/#projects",
   },
 ] as const;
