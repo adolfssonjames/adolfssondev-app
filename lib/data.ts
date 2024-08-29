@@ -3,11 +3,7 @@ import { FaFileInvoice } from "react-icons/fa";
 import { IoMdContacts } from "react-icons/io";
 import { RiPresentationFill } from "react-icons/ri";
 import { FaLaptopCode } from "react-icons/fa";
-import wordanalyticsImg from "../public/wordanalytics.png";
-import soulsistersImg from "../public/soulsisters.png";
-import placeholderImg from "../public/placeholderImg.jpg";
-import soulsistersImg2 from "../public/soulsisters2.png";
-import adolfssondigitalImg2 from "../public/adolfssondigital2.png";
+
 import test from "node:test";
 
 export const links = [
@@ -89,7 +85,7 @@ export const projectsData = [
       "Framer-motion",
       "Resend",
     ],
-    imageUrl: adolfssondigitalImg2,
+    imageUrl: "",
     projectUrl: "https://adolfssondigital.com",
   },
   {
@@ -103,7 +99,7 @@ export const projectsData = [
       "Tailwind",
       "TypeScript",
     ],
-    imageUrl: soulsistersImg2,
+    imageUrl: "",
     projectUrl: "https://soulsistershop.se",
   },
   {
@@ -111,7 +107,7 @@ export const projectsData = [
     description:
       "För närvarande under utveckling. Detta är en portföljwebbplats för en inredningsarkitekt och designer.",
     tags: ["Under utveckling"],
-    imageUrl: placeholderImg,
+    imageUrl: "",
     projectUrl: "https://www.adolfssondigital.com/#projects",
   },
 ] as const;
