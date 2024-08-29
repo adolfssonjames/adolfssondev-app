@@ -3,7 +3,7 @@ import { FaFileInvoice } from "react-icons/fa";
 import { IoMdContacts } from "react-icons/io";
 import { RiPresentationFill } from "react-icons/ri";
 import { FaLaptopCode } from "react-icons/fa";
-
+import adolfssondigitalImg2 from "../public/adolfssondigital2.png";
 import placeholderImg from "../public/placeholderImg.jpg";
 import soulsistersImg2 from "../public/soulsisters2.png";
 
