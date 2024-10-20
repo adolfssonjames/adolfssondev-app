@@ -6,6 +6,8 @@ import { FaLaptopCode } from "react-icons/fa";
 import adolfssondigitalImg2 from "../public/adolfssondigital2.png";
 import placeholderImg from "../public/placeholderImg.jpg";
 import soulsistersImg2 from "../public/soulsisters2.png";
+import rbdab from "../public/rbdab.png";
+import rehnbyhemsida from "../public/rehnbyhemsida.png";
 
 export const links = [
   {
@@ -104,6 +106,14 @@ export const projectsData = [
     projectUrl: "https://soulsistershop.se",
   },
   {
+    title: "Rehnby bygg och Dekor",
+    description:
+      "Webbplats för Rehnby Bygg och Dekor. Klientens mål var att ha en webbplats som presenterar företaget och dess tjänster.",
+    tags: ["Next.js", "Tailwind", "TypeScript", "Framer-motion"],
+    imageUrl: rehnbyhemsida,
+    projectUrl: "https://www.rbdab.se",
+  },
+  {
     title: "Elvira Cornelia - Interior Designer",
     description:
       "För närvarande under utveckling. Detta är en portföljwebbplats för en inredningsarkitekt och designer.",
@@ -121,10 +131,17 @@ export const skillsData = [
       '"Jag kan varmt rekommendera James på Adolfsson Digital. Han har hjälpt mig att skapa en webbplats åt min butik. Jag är mycket nöjd med resultatet. James är lyhörd. Jag är mycket nöjd med samarbetet och jag kommer att anlita honom igen för framtida projekt"',
   },
   {
+    name: "Axel",
+    role: "Företagare & Snickare",
+    testimonial:
+      '"James, vad duktig du är! Snyggt och proffsigt resultat. Jag är mycket nöjd med designen och offerten såg bra ut. Rekommenderar james till alla som behöver en webbplats."',
+  },
+  {
     name: "Elvira",
     role: "Frilansare & Inredningsarkitekt",
     testimonial: "Kommande recension",
   },
+
   {
     name: "Det här kan vara du",
     role: "Företagare eller privatperson",
