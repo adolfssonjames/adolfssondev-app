@@ -117,7 +117,7 @@ export const projectsData = [
     title: "Elvira Cornelia - Interior Designer",
     description:
       "För närvarande under utveckling. Detta är en portföljwebbplats för en inredningsarkitekt och designer.",
-    tags: ["Under utveckling"],
+    tags: [""],
     imageUrl: placeholderImg,
     projectUrl: "https://www.adolfssondigital.com/#projects",
   },
@@ -162,7 +162,7 @@ export const servicesData = [
       "Responsiv design",
       "CMS",
     ],
-    price: "6000 SEK exkl. moms",
+    price: "Pris",
 
     price2: "",
   },
@@ -182,8 +182,8 @@ export const servicesData = [
       "Analytics",
       "30-dagar gratis underhåll",
     ],
-    price: "Från 10 000 SEK exkl. moms",
-    price2: "Kampanj: Just nu 50% rabatt. (5000 SEK exkl. moms)",
+    price: "Pris",
+    price2: "",
   },
   {
     title: "Konsult eller Serviceavtal",
@@ -200,7 +200,7 @@ export const servicesData = [
       "Uppdateringar",
       "performance rapportering",
     ],
-    price: "Konsult: 400 SEK/Timme",
-    price2: "Serviceavtal: 450 SEK/Månad",
+    price: "Pris",
+    price2: "",
   },
 ] as const;
